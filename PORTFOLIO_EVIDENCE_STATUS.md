@@ -4,7 +4,7 @@
 
 | 项目 | 已公开、可查看 | 可选后续完善 |
 |---|---|---|
-| Clothing Fit Risk Prediction | [运行完成Notebook](Clothing_Fit_Prediction_Public_(1).ipynb)（70个单元格、60项输出、8张内嵌图表）；[中文案例](projects/clothing-fit/README.md)；[运行结果核查](projects/clothing-fit/NOTEBOOK_RUN_AUDIT.md) | 在独立环境执行完整复现；固定依赖版本；原始课程报告仅作历史版本对照 |
+| Clothing Fit Risk Prediction | [运行完成Notebook](Clothing_Fit_Prediction_Public_%281%29.ipynb)（70个单元格、60项输出、8张内嵌图表）；[中文案例](projects/clothing-fit/README.md)；[运行结果核查](projects/clothing-fit/NOTEBOOK_RUN_AUDIT.md) | 在独立环境执行完整复现；固定依赖版本；原始课程报告仅作历史版本对照 |
 | Australian Trade & Gas Export Outlook | [中文案例](projects/australian-trade/README.md)、[真实Tableau贸易总览](D2_Trade%20Overview.png)、[燃料进口分析](D3_Fuel%20Import%20Analysis.png)、[数据口径说明](projects/australian-trade/ANALYSIS_NOTES_CN.md) | [已公开Excel](Australian_Trade_Data_Portfolio.xlsx)与[Tableau打包工作簿](Australian_Trade_Tableau_Portfolio.twbx)，剔除旧预测比较；不把额外回测列作个人实验 |
 | Jubilee Superstores KPI Dashboard | [中文案例](projects/financial-kpi/README.md)、[求职修正版12项KPI Dashboard](Dashboard.png)、[业务洞察](projects/financial-kpi/BUSINESS_INSIGHTS_CN.md) | [脱敏求职版TWBX](Jubilee_Tableau_Portfolio_Corrected_v3.twbx)、[修正后Dashboard](Dashboard.png)、[指标核验](projects/financial-kpi/DATA_VALIDATION_CN.md)已经公开；原报告口径保留历史说明 |
 
