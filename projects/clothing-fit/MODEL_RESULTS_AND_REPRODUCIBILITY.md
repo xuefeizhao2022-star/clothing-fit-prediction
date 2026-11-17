@@ -24,7 +24,7 @@
 Validation in the same saved comparison: Accuracy 0.6812, balanced accuracy 0.5789, macro F1 0.5546, misfit recall 0.5306, false alert rate 0.2523.
 
 ## Figure version audit
-The publicly displayed confusion matrix was supplied from the original course report, **not regenerated from the corrected notebook**.
+The historical report confusion matrix stored in the repository was supplied from the original course report; **the primary portfolio evidence is now the executed public notebook**, which contains its own confusion matrix (small: 1852/1882/128; fit: 2814/15852/2621; large: 121/1753/1831).
 
 | Actual / Predicted | small | fit | large |
 |---|---:|---:|---:|
@@ -48,4 +48,4 @@ Total 28,854; diagonal sum 19,546; figure-derived accuracy **19,546 / 28,854 = 0
 4. Compare test confusion matrix and derived metrics **from the same run** before replacing report-version figures.
 5. Do not publish a modified academic report as though it were the originally submitted version.
 
-**Code publication status:** The corrected source notebook has been located in the user's uploaded files but has not yet been published to this GitHub repository. No public code download link is claimed here.
+**Code publication status:** [Executed, privacy-cleaned public notebook](../../Clothing_Fit_Prediction_Public_(1).ipynb) is now in the repository, with saved code outputs and plots. The saved execution was checked for errors and the prior student ID; independent clean-environment reproduction remains a future step.
