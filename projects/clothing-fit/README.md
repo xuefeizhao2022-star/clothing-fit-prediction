@@ -33,7 +33,7 @@
 | Misfit Precision | 0.4198 |
 | False Alert Rate | 0.2553 |
 
-以上取自 Notebook **Section 9 / cells 56–58 的保存输出**，测试集样本量为 28,854。Notebook Section 13 的文字总结出现略有差异的数值（0.6774 / 0.5718 / 0.5489），应在最终公开 Notebook 前统一。
+以上取自2026-11-17收到的运行完成Notebook **Section 9 / cells 56–58 的保存输出**，测试集样本量为28,854。其Section 13与此处一致；不同数值（0.6774 / 0.5718 / 0.5489）来自原始课程报告截图版本，不是本次Notebook的Section 13。
 
 ### 为什么不直接选择最高准确率？
 多数类基线在验证集的 Accuracy 为 0.7377，但其 Balanced Accuracy 只有 0.3333，且不能识别错码风险。最终模型的准确率较低，但更符合“识别不合适尺码”的业务目标。模型的误报率仍约25.53%，因此结果更适合作为研究性预警演示，而不是直接用于生产。
@@ -56,7 +56,7 @@ Misra, R., Wan, M., & McAuley, J. (2018). *Decomposing fit semantics for product
 ---
 **证据状态：** 本页根据上传的最终 `.ipynb` 的代码、Markdown与保存的运行输出整理；Notebook公开候选版已完成学号脱敏与旧输出清理；尚未提交仓库，运行验证待完成。
 
-## 原始报告图表与Notebook输出的版本说明（2026-11-17）
+## 原始报告图表与Notebook输出的版本说明（2026-11-17复核）
 用户提供了最终报告中的 Figure 3（混淆矩阵）和 Figure 4（Logistic Regression 系数图）。Figure 3 的矩阵为：
 
 | Actual \\ Predicted | small | fit | large |
@@ -67,14 +67,14 @@ Misra, R., Wan, M., & McAuley, J. (2018). *Decomposing fit semantics for product
 
 该矩阵总样本数为28,854，对角线正确预测数为19,546，计算准确率为 **0.6774**，与原始报告的准确率一致，**并非本页前述Notebook保存输出的0.6770**。因此两套结果来自不同保存状态，尚不能混合引用为同一次测试；需重新核对或统一运行后再发布同组指标和图表。
 
-原始课程报告的两张图片已上传至GitHub。系数图展示模型关联，不代表因果关系。
+原始课程报告的两张图片已上传至GitHub，但属于报告版本，不是本次运行Notebook的对应输出。系数图展示模型关联，不代表因果关系。
 
-## 实际模型图（已上传）
+## 课程报告版本模型图（已上传；非本次Notebook对应图）
 ![课程报告的最终混淆矩阵](../../clothing_confusion_matrix.png)
 
 ![Logistic Regression模型系数](../../clothing_coefficients.png)
 
-**版本说明：** 图中的混淆矩阵对角线为1,841、15,879、1,826，样本总量28,854，计算得到 Accuracy 0.6774，**与原始课程PDF报告一致**；本页此前记录的0.6770来自另一份Notebook保存输出。两者不可视为同一轮测试输出。图片展示采用报告版本，Notebook版本指标保留来源标注，公开修订报告时再完成统一。
+**版本说明：** 以上报告图混淆矩阵对角线为1,841、15,879、1,826（Accuracy 0.6774）。2026-11-17收到的运行完成Notebook在cell 56保存的矩阵则为：small行[1852,1882,128]、fit行[2814,15852,2621]、large行[121,1753,1831]（Accuracy 0.6770）。这两张矩阵不是同一次运行；上方指标表采用Notebook版本，报告图仅作原作业证据，**不得以该报告图说明0.6770的指标**。待Notebook图上传后替换本节主图。
 
 ### 模型结果核查
 [查看两组模型运行结果的区别、实际混淆矩阵数值与复现清单](MODEL_RESULTS_AND_REPRODUCIBILITY.md)。课程报告图与修订版Notebook的测试指标来自不同结果版本，不应混用。
