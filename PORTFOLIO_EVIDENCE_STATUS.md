@@ -1,25 +1,20 @@
-# 作品集材料核查清单（2026-11）
+# 作品集材料状态（更新于2026-11-17）
 
-本清单用于区分“已有课程报告”“已公开案例”和“原始可视化/代码”。**不把材料存在等同于已上传或已核实。**
+本表区分**已公开的真实证据**与**尚未公开的可选源文件**。课程项目不是商业部署成果。
 
-| 项目 | 已找到的来源 | 已公开的成果 | 尚缺的关键证据 |
-|---|---|---|---|
-| Clothing Fit Risk Prediction | 19页A2最终PDF、此前Notebook内容及保存输出 | 中文详细案例README | 修正并脱敏的Notebook、混淆矩阵/系数图原图、修订版公开报告 |
-| Australian Trade & Gas Export Outlook | 19页课程A3 PDF（多个版本）及相关报告 | 中文详细案例README | **最终确认版本**的Tableau `.twbx`、Excel `.xlsx`、可直接发布的图表截图；需排除已删除的额外回测内容 |
-| Jubilee Superstores KPI Dashboard | 10页《Balanced Scorecard Design Proposal and Dashboard Report》PDF | 中文详细案例README | Tableau原始Dashboard图片/工作簿；现有PDF有指标与方法文字，但未核实独立可用的完整Dashboard图 |
+| 项目 | 已公开、可查看 | 可选后续完善 |
+|---|---|---|
+| Clothing Fit Risk Prediction | [运行完成Notebook](Clothing_Fit_Prediction_Public_(1).ipynb)（70个单元格、60项输出、8张内嵌图表）；[中文案例](projects/clothing-fit/README.md)；[运行结果核查](projects/clothing-fit/NOTEBOOK_RUN_AUDIT.md) | 在独立环境执行完整复现；固定依赖版本；原始课程报告仅作历史版本对照 |
+| Australian Trade & Gas Export Outlook | [中文案例](projects/australian-trade/README.md)、[真实Tableau贸易总览](trade_overview.png)、[燃料进口分析](fuel_imports.png)、[数据口径说明](projects/australian-trade/ANALYSIS_NOTES_CN.md) | 核对最终Excel与Tableau工作簿后再考虑公开；不要把AI-assisted naïve benchmark / retrospective check列为已完成的个人实验 |
+| Jubilee Superstores KPI Dashboard | [中文案例](projects/financial-kpi/README.md)、[真实12项KPI Dashboard](jubilee_dashboard.png)、[业务洞察](projects/financial-kpi/BUSINESS_INSIGHTS_CN.md) | 可补充经脱敏的Tableau工作簿或计算字段；目前不声称已上传 |
 
-## 下一步执行顺序
-1. 从已找到的PDF提取真实图表；先核对图表是否包含个人信息、清晰度是否足以公开。
-2. 核对贸易项目最终Excel、Tableau工作簿的版本，避免旧稿数值混入。
-3. 仅在缺少可用图表时请求用户提供对应截图或原始工作簿。
-4. 对Notebook和报告进行个人信息脱敏、数值一致性检查后再发布。
-5. 完成三个核心项目后，再逐步完善SQL、原创女装、Lolita Market Watch等补充项目。
+## Clothing Fit版本区分
+- 当前公开Notebook的测试结果：Accuracy 0.6770、Balanced Accuracy 0.5728、Macro F1 0.5493；其内嵌混淆矩阵与指标对应同一轮保存输出。
+- 仓库历史报告图 [clothing_confusion_matrix.png](clothing_confusion_matrix.png) 对应旧版本Accuracy约0.6774，**不能用来说明当前Notebook的0.6770**。
+- 作者已在Colab运行并保存结果；本次静态核查没有发现保存的Python报错或此前学号，**并非第三方独立重跑**。
 
-## 真实性边界
-- 课程作业与真实商业项目分开表述。
-- 未上传的源文件不提供虚构下载链接。
-- 课程报告中的数字不等于独立验证的现实经营业绩。
-- 页面中的模型指标如与原报告不同，应注明来源版本和修订依据。
-
-## 2026-11-17 上传核实
-已直接核查GitHub main分支根目录：`clothing_confusion_matrix.png`、`clothing_coefficients.png`、`trade_overview.png`、`fuel_imports.png`、`jubilee_dashboard.png` 五张真实图片全部存在。网站HTML和三个项目README已包含对应图片引用。剩余事项：Notebook/最终报告脱敏及模型输出版本一致性核对。
+## 真实性与隐私边界
+- 课程作业与实际商业项目分开表述。
+- 未上传的工作簿、报告和源文件不提供虚构下载链接。
+- 不公开包含学号、账户凭据或私人Cookie的原始文件。
+- 不将规划目标、模型演示或预测当成真实企业运营结果。
