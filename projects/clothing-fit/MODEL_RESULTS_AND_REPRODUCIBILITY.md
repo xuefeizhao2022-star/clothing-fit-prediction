@@ -48,4 +48,4 @@ Total 28,854; diagonal sum 19,546; figure-derived accuracy **19,546 / 28,854 = 0
 4. Compare test confusion matrix and derived metrics **from the same run** before replacing report-version figures.
 5. Do not publish a modified academic report as though it were the originally submitted version.
 
-**Code publication status:** [Executed, privacy-cleaned public notebook](../../Clothing_Fit_Prediction_Public_(1).ipynb) is now in the repository, with saved code outputs and plots. The saved execution was checked for errors and the prior student ID; independent clean-environment reproduction remains a future step.
+**Code publication status:** [Executed, privacy-cleaned public notebook](../../Clothing_Fit_Prediction_Public_%281%29.ipynb) is now in the repository, with saved code outputs and plots. The saved execution was checked for errors and the prior student ID; independent clean-environment reproduction remains a future step.
