@@ -42,22 +42,23 @@
 
 ## 可展示证据与下一步
 - 已核对：历史贸易指标和分析方法（课程报告）。
-- 已展示：D2贸易总览与D3燃料进口分析的真实Tableau截图。\n- 可选补充：经隐私与数据来源检查的 `.twbx`、Excel工作簿；不影响目前案例展示。
+- 已展示：D2贸易总览与D3燃料进口分析的真实Tableau截图。
+- 可选补充：经隐私与数据来源检查的 `.twbx`、Excel工作簿；不影响目前案例展示。
 - 不公开包含学号的原始报告；发布前先脱敏。
 
 [返回作品集](https://xuefeizhao2022-star.github.io/clothing-fit-prediction/)
 
-## Tableau 原始图表核查（2026-11-17）
-用户已提供四张实际 Tableau 导出图：D1 Gas Export Analysis、D2 Trade Overview、D3 Fuel Import Analysis、S1 Australian Trade Story。D2和D3可作为首批展示候选；D1和S1仍出现 **AI-assisted naïve benchmark** 与方法对比文字，和本作品集明确排除该额外比较的要求冲突，**在修订前不作为正式公开图表**。
+## Tableau 原始图表核查
+课程材料中包含四张实际 Tableau 导出图：D1 Gas Export Analysis、D2 Trade Overview、D3 Fuel Import Analysis、S1 Australian Trade Story。D2和D3可作为首批展示候选；D1和S1仍出现 **AI-assisted naïve benchmark** 与方法对比文字，和本作品集明确排除该额外比较的要求冲突，**在修订前不作为正式公开图表**。
 
 其中D2和D3两张精选PNG现已提交到GitHub仓库，D1和S1未公开。
 
-## 精选的实际Tableau图表（已上传）
+## 精选 Tableau 原始图表
 ![D2 Trade Overview](../../trade_overview.png)
 
 ![D3 Fuel Import Analysis](../../fuel_imports.png)
 
-这两张是用户导出的真实Tableau仪表板。D1和S1保留在课程原作业中，但因含已决定不作为作品集成果的AI-assisted naïve benchmark比较，暂不公开。
+这两张为项目中实际导出的Tableau仪表板。D1和S1保留在课程原作业中，但因含已决定不作为作品集成果的AI-assisted naïve benchmark比较，暂不公开。
 
 ### 图表分析说明
 [查看D2/D3的数据口径、主要发现与展示边界](ANALYSIS_NOTES_CN.md)。
