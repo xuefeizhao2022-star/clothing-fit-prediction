@@ -35,10 +35,11 @@
 
 ## 三个精选项目与可核查证据
 - [服装尺码适配风险预测：完整案例](projects/clothing-fit/README.md) · [已运行Notebook](Clothing_Fit_Prediction_Public_(1).ipynb)
-- [澳大利亚贸易分析：完整案例](projects/australian-trade/README.md) · [Tableau贸易总览](trade_overview.png) · [燃料进口图](fuel_imports.png)
-- [Jubilee KPI仪表板：完整案例](projects/financial-kpi/README.md) · [真实Tableau Dashboard](jubilee_dashboard.png)
+- [澳大利亚贸易分析：完整案例](projects/australian-trade/README.md) · [Tableau工作簿](Australian_Trade_Tableau_Portfolio.twbx) · [Excel数据](Australian_Trade_Data_Portfolio.xlsx) · [贸易总览](D2_Trade%20Overview.png) · [燃料进口图](D3_Fuel%20Import%20Analysis.png)
+- [Jubilee KPI仪表板：完整案例](projects/financial-kpi/README.md) · [脱敏修正版TWBX](Jubilee_Tableau_Portfolio_Corrected_v3.twbx) · [新版真实Dashboard](Dashboard.png)
 
 ## 求职与复现资料
 - [三个核心项目的中文简历表述与面试提纲](RESUME_AND_INTERVIEW_CN.md)
 - [Clothing Fit：结果版本核查与复现说明](projects/clothing-fit/MODEL_RESULTS_AND_REPRODUCIBILITY.md)
 - [作品集材料状态](PORTFOLIO_EVIDENCE_STATUS.md)
+- [最终验收记录](PORTFOLIO_FINAL_QA_CN.md)
