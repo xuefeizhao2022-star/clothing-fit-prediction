@@ -69,7 +69,7 @@ Misra, R., Wan, M., & McAuley, J. (2018). *Decomposing fit semantics for product
 
 原始图片及标注版已在会话中收到并生成，**目前尚未作为二进制图片提交GitHub**。待正式上传后补充真实文件链接。系数图是模型关联解释，不应做因果解释。
 
-## 实际模型图（待图片文件上传）
+## 实际模型图（已上传）
 ![课程报告的最终混淆矩阵](../../clothing_confusion_matrix.png)
 
 ![Logistic Regression模型系数](../../clothing_coefficients.png)
