@@ -10,7 +10,7 @@
 - 静态验证：打包文件ZIP结构完整；Tableau XML仍包含D2、D3；未检出`naive`、`benchmark`、`Forecast-Comparison`、原学号或本地绝对文件路径。
 
 ## 重要边界
-已生成的文件**还没有在Tableau Desktop中重新打开验证**。作者已确认D2/D3能在Tableau正常显示；公开版文件已经上传GitHub。仍不宣称第三方独立复现或对原始统计来源完成审计。
+作者已在Tableau Desktop中打开确认D2/D3正常显示；公开版文件已经上传GitHub。仍不宣称第三方独立复现或对原始统计来源完成审计。
 
 ## 公开文件
 - [Excel数据与计算表](../../Australian_Trade_Data_Portfolio.xlsx)
