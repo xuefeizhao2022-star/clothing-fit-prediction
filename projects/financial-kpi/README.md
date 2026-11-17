@@ -36,22 +36,22 @@
 ## 我的贡献
 独立撰写平衡计分卡方案、筛选和调整KPI、在Tableau中制作指标工作表与仪表板、解释指标之间的联系和局限。
 
-## 可展示证据与待办
+## 可展示证据与后续完善
 - 已核对：课程最终报告的指标、方法及局限性。
-- 待添加：原始Tableau Dashboard截图、计算字段、可分享的工作簿或经脱敏的报告。
-- 尚未上传截图，因此不以示意图冒充真实Dashboard。
+- 已上传：原始 Tableau Business Performance Dashboard 截图（下方展示）。
+- 可选补充：经脱敏的 Tableau 工作簿、计算字段说明或课程报告；目前没有公开这些文件。
 
 [返回作品集](https://xuefeizhao2022-star.github.io/clothing-fit-prediction/)
 
-## 实际Dashboard证据（2026-11-17补充）
-已收到用户提供的最终 Tableau **Business Performance Dashboard** 截图，标题副标题为“Financial, Customer and Operational Metrics”，画面完整展示12项KPI：Revenue、Gross Profit、Gross Profit Margin、Avg Orders per Customer、AOV、Average Delivery Days、Indigenous Employee Representation、On-Time Delivery Rate、Sales per Employee、Sales per Hour Worked、Total Product Weight、Revenue per kg。截图中收入$2.48M、毛利$1.74M、毛利率70.68%、AOV $191.29、订单数/客户6.15、平均配送3.90天、准时率73.00%，与课程报告的已整理数据一致。
+## 实际Dashboard证据
+本项目最终 Tableau **Business Performance Dashboard** 截图，标题副标题为“Financial, Customer and Operational Metrics”，画面完整展示12项KPI：Revenue、Gross Profit、Gross Profit Margin、Avg Orders per Customer、AOV、Average Delivery Days、Indigenous Employee Representation、On-Time Delivery Rate、Sales per Employee、Sales per Hour Worked、Total Product Weight、Revenue per kg。截图中收入$2.48M、毛利$1.74M、毛利率70.68%、AOV $191.29、订单数/客户6.15、平均配送3.90天、准时率73.00%，与课程报告的已整理数据一致。
 
 **发布状态：** 真实Dashboard PNG已上传GitHub，见下图。`kpi-highlights.svg`仅是根据报告数值重绘的摘要，不是Tableau原图。
 
-## 实际Tableau KPI Dashboard（已上传）
+## 实际 Tableau KPI Dashboard
 ![Business Performance Dashboard](../../jubilee_dashboard.png)
 
-该图为用户提供的真实Tableau截图；12项KPI均保留。图片已上传，可直接在此查看。
+该图为课程项目的真实Tableau截图，保留全部12项KPI。
 
 ### 商业洞察与面试讲解
 [查看12项KPI的商业含义、建议和局限](BUSINESS_INSIGHTS_CN.md)。
