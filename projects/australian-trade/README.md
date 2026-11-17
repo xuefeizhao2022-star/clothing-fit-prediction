@@ -4,7 +4,7 @@
 **工具：** Excel · Tableau · 数据清洗 · 贸易结构可视化
 
 ## 背景与问题
-研究课程数据中2016–2025年澳大利亚商品进出口趋势、贸易结构与燃料类别，并讨论2026–2030年天然气出口的规划不确定性。
+研究课程数据中2016–2025年澳大利亚商品进出口趋势、贸易结构与燃料类别，并讨论能源贸易趋势的业务含义；公开版聚焦已验证的历史分析。
 
 ## 数据范围
 - 课程提供的2016–2025年度商品贸易数据，标注为经调整的澳大利亚统计局数据。
@@ -14,8 +14,8 @@
 ## 我的方法
 1. 在Excel保留原始进出口数据，并建立各类别年度份额、同比比率和合并分析表。
 2. 处理主类别份额与子类别“占父类别比例”的不同分母，避免误读。
-3. 使用Tableau折线图、小多图、堆叠柱状图及Story比较商品贸易、燃料结构与趋势。
-4. 对天然气出口作2026–2030规划期预测，并明确预测不确定性与业务局限。
+3. 使用Tableau折线图、小多图、堆叠柱状图及Dashboard比较商品贸易、燃料结构与趋势。
+4. 为求职公开版筛选D2贸易总览和D3燃料进口看板，保留可检查的数据计算过程。
 
 ## 已核对的主要发现
 | 指标 | 2016 | 2025 |
@@ -30,10 +30,10 @@
 - 2025年天然气占燃料出口的43.88%；石油约占燃料进口的99%。
 
 ## 预测解释
-历史版本报告包含后来决定不再作为作品集成果展示的 AI-assisted naïve benchmark / retrospective check。本案例**不将该部分视为本人实际完成的额外实验**。最终预测数值和可视化应在核对最终版Tableau工作簿后补充。现阶段重点展示已经完成的Excel计算、Tableau分析和可直接核对的历史数据。
+历史版本报告包含后来决定不再作为作品集成果展示的 AI-assisted naïve benchmark / retrospective check。本案例**不将该部分视为本人实际完成的额外实验**。公开版已移除相关预测比较工作表与看板，重点展示Excel计算、Tableau D2/D3和可直接核对的历史数据。
 
 ## 我的贡献
-独立完成Excel预处理、份额与年度比率计算、Tableau图表和Story、贸易趋势分析及书面报告。
+独立完成Excel预处理、份额与年度比率计算、Tableau图表及课程Story、贸易趋势分析及书面报告。
 
 ## 局限
 - 名义金额未进行通胀调整；贸易价值变化不等于实物出口量变化。
@@ -43,7 +43,7 @@
 ## 可展示证据与下一步
 - 已核对：历史贸易指标和分析方法（课程报告）。
 - 已展示：D2贸易总览与D3燃料进口分析的真实Tableau截图。
-- 可选补充：经隐私与数据来源检查的 `.twbx`、Excel工作簿；不影响目前案例展示。
+- **已上传：** [公开版Excel数据与计算表](../../Australian_Trade_Data_Portfolio.xlsx)、[公开版Tableau打包工作簿](../../Australian_Trade_Tableau_Portfolio.twbx)。
 - 不公开包含学号的原始报告；发布前先脱敏。
 
 [返回作品集](https://xuefeizhao2022-star.github.io/clothing-fit-prediction/)
@@ -51,12 +51,12 @@
 ## Tableau 原始图表核查
 课程材料中包含四张实际 Tableau 导出图：D1 Gas Export Analysis、D2 Trade Overview、D3 Fuel Import Analysis、S1 Australian Trade Story。D2和D3可作为首批展示候选；D1和S1仍出现 **AI-assisted naïve benchmark** 与方法对比文字，和本作品集明确排除该额外比较的要求冲突，**在修订前不作为正式公开图表**。
 
-其中D2和D3两张精选PNG现已提交到GitHub仓库，D1和S1未公开。
+D2/D3的新导出图和对应公开版工作簿已上传；原始D1和S1不在公开版中。
 
 ## 精选 Tableau 原始图表
-![D2 Trade Overview](../../trade_overview.png)
+![D2 Trade Overview](../../D2_Trade%20Overview.png)
 
-![D3 Fuel Import Analysis](../../fuel_imports.png)
+![D3 Fuel Import Analysis](../../D3_Fuel%20Import%20Analysis.png)
 
 这两张为项目中实际导出的Tableau仪表板。D1和S1保留在课程原作业中，但因含已决定不作为作品集成果的AI-assisted naïve benchmark比较，暂不公开。
 
