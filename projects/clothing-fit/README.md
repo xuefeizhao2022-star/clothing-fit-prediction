@@ -75,3 +75,6 @@ Misra, R., Wan, M., & McAuley, J. (2018). *Decomposing fit semantics for product
 ![Logistic Regression模型系数](../../clothing_coefficients.png)
 
 **版本说明：** 图中的混淆矩阵对角线为1,841、15,879、1,826，样本总量28,854，计算得到 Accuracy 0.6774，**与原始课程PDF报告一致**；本页此前记录的0.6770来自另一份Notebook保存输出。两者不可视为同一轮测试输出。图片展示采用报告版本，Notebook版本指标保留来源标注，公开修订报告时再完成统一。
+
+### 模型结果核查
+[查看两组模型运行结果的区别、实际混淆矩阵数值与复现清单](MODEL_RESULTS_AND_REPRODUCIBILITY.md)。课程报告图与修订版Notebook的测试指标来自不同结果版本，不应混用。
