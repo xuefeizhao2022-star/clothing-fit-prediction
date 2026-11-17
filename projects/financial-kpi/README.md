@@ -52,3 +52,6 @@
 ![Business Performance Dashboard](../../jubilee_dashboard.png)
 
 该图为用户提供的真实Tableau截图；12项KPI均保留。图片已上传，可直接在此查看。
+
+### 商业洞察与面试讲解
+[查看12项KPI的商业含义、建议和局限](BUSINESS_INSIGHTS_CN.md)。
