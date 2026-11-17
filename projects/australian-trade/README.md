@@ -42,7 +42,7 @@
 
 ## 可展示证据与下一步
 - 已核对：历史贸易指标和分析方法（课程报告）。
-- 待添加：最终版 `.twbx`、Excel工作簿、Tableau实际截图和确认过的预测图。
+- 已展示：D2贸易总览与D3燃料进口分析的真实Tableau截图。\n- 可选补充：经隐私与数据来源检查的 `.twbx`、Excel工作簿；不影响目前案例展示。
 - 不公开包含学号的原始报告；发布前先脱敏。
 
 [返回作品集](https://xuefeizhao2022-star.github.io/clothing-fit-prediction/)
