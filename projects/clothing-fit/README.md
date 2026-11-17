@@ -57,7 +57,7 @@ Misra, R., Wan, M., & McAuley, J. (2018). *Decomposing fit semantics for product
 ---
 ## 公开代码与运行结果
 
-**[查看已运行的完整 Notebook（代码、模型评估、混淆矩阵和系数图）](../../Clothing_Fit_Prediction_Public_(1).ipynb)**
+**[查看已运行的完整 Notebook（代码、模型评估、混淆矩阵和系数图）](../../Clothing_Fit_Prediction_Public_%281%29.ipynb)**
 
 此公开文件由项目作者在 Google Colab 运行并保存输出；已静态检查：70个单元格、60项输出、8张内嵌图表、无保存的Python报错，未检出此前学号。该检查不等于在独立环境中重新执行实验。
 
