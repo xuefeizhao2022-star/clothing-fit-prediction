@@ -1,6 +1,6 @@
 # Australian Trade：公开版处理记录（2026-11-17）
 
-## 已生成的本地公开候选文件（尚未上传GitHub）
+## 已上传的公开求职版本
 - `Australian_Trade_Data_Portfolio.xlsx`：9张Excel数据/分析工作表，剔除`Forecast-Comparison`。
 - `Australian_Trade_Tableau_Portfolio.twbx`：保留13张分析工作表，以及`D2_Trade Overview`、`D3_Fuel Import Analysis`两个真实Dashboard。
 
@@ -10,10 +10,9 @@
 - 静态验证：打包文件ZIP结构完整；Tableau XML仍包含D2、D3；未检出`naive`、`benchmark`、`Forecast-Comparison`、原学号或本地绝对文件路径。
 
 ## 重要边界
-已生成的文件**还没有在Tableau Desktop中重新打开验证**。在使用者确认D2/D3没有连接错误、展示数值与现有真实截图对应之前，不应宣称正式可复现；也不要上传原始带学号/额外比较的工作簿。
+已生成的文件**还没有在Tableau Desktop中重新打开验证**。作者已确认D2/D3能在Tableau正常显示；公开版文件已经上传GitHub。仍不宣称第三方独立复现或对原始统计来源完成审计。
 
-## 需要的验收
-1. 在Tableau Desktop打开`Australian_Trade_Tableau_Portfolio.twbx`；
-2. 检查D2、D3正常显示且不提示重连数据源；
-3. 确认没有naïve benchmark/Forecast Comparison页面；
-4. 将验证通过的公开版工作簿及Excel上传GitHub。
+## 公开文件
+- [Excel数据与计算表](../../Australian_Trade_Data_Portfolio.xlsx)
+- [Tableau打包工作簿](../../Australian_Trade_Tableau_Portfolio.twbx)
+- [D2导出图](../../D2_Trade%20Overview.png) · [D3导出图](../../D3_Fuel%20Import%20Analysis.png)
