@@ -51,3 +51,10 @@
 用户已提供四张实际 Tableau 导出图：D1 Gas Export Analysis、D2 Trade Overview、D3 Fuel Import Analysis、S1 Australian Trade Story。D2和D3可作为首批展示候选；D1和S1仍出现 **AI-assisted naïve benchmark** 与方法对比文字，和本作品集明确排除该额外比较的要求冲突，**在修订前不作为正式公开图表**。
 
 四张PNG目前仍是会话附件，**尚未提交到GitHub仓库**；此处不提供虚构的下载链接。发布后会补充实际文件链接。
+
+## 精选的实际Tableau图表（待图片文件上传）
+![D2 Trade Overview](../../trade_overview.png)
+
+![D3 Fuel Import Analysis](../../fuel_imports.png)
+
+这两张是用户导出的真实Tableau仪表板。D1和S1保留在课程原作业中，但因含已决定不作为作品集成果的AI-assisted naïve benchmark比较，暂不公开。
