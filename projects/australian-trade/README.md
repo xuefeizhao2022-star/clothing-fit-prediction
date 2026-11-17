@@ -58,3 +58,6 @@
 ![D3 Fuel Import Analysis](../../fuel_imports.png)
 
 这两张是用户导出的真实Tableau仪表板。D1和S1保留在课程原作业中，但因含已决定不作为作品集成果的AI-assisted naïve benchmark比较，暂不公开。
+
+### 图表分析说明
+[查看D2/D3的数据口径、主要发现与展示边界](ANALYSIS_NOTES_CN.md)。
