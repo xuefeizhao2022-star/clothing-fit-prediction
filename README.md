@@ -15,7 +15,7 @@
 - Python Programming — Customer Behaviour EDA
 - SAS Predictive Business Analytics
 - Database — E-commerce SQL Prototype
-- Baobaopi Original Design — Original Womenswear Business
+- [Original Womenswear Brand — 独立经营原创女装品牌](projects/original-womenswear/README.md)
 - Lolita Market Watch — Python / Playwright Automation Prototype
 
 ## 使用
