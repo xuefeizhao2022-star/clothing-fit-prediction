@@ -78,3 +78,6 @@ Misra, R., Wan, M., & McAuley, J. (2018). *Decomposing fit semantics for product
 
 ### 模型结果核查
 [查看两组模型运行结果的区别、实际混淆矩阵数值与复现清单](MODEL_RESULTS_AND_REPRODUCIBILITY.md)。课程报告图与修订版Notebook的测试指标来自不同结果版本，不应混用。
+
+### 已运行Notebook核查
+[查看当前Notebook的真实混淆矩阵、指标与版本差异](NOTEBOOK_RUN_AUDIT.md)。
