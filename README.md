@@ -3,8 +3,8 @@
 这是我的中文交互式项目作品集，面向数据分析、商业分析、BI及技术型数据分析岗位。
 
 ## 网站入口
-- [打开网站首页文件](./index.html)
-- 若启用 GitHub Pages，网站可作为公开访问的作品集。
+- **[在线查看中文交互式作品集](https://xuefeizhao2022-star.github.io/clothing-fit-prediction/)**
+- [查看网站源代码](./index.html)
 
 ## 项目覆盖
 - Advanced Data Analytics Algorithms — Clothing Fit Risk Prediction
@@ -31,7 +31,12 @@
 - 公开前应检查 Notebook、数据和截图是否含账号凭据、Cookie或敏感信息。
 
 ## GitHub Pages 发布
-在仓库 **Settings → Pages → Build and deployment** 中，选择 **Deploy from a branch**，分支 **main**、目录 **/(root)**，保存并等待 GitHub 提供网站地址。此步骤需仓库所有者在 GitHub 页面操作。
+网站已通过 GitHub Pages 公开发布，更新 `main` 分支后可通过上方链接查看。
+
+## 三个精选项目与可核查证据
+- [服装尺码适配风险预测：完整案例](projects/clothing-fit/README.md) · [已运行Notebook](Clothing_Fit_Prediction_Public_(1).ipynb)
+- [澳大利亚贸易分析：完整案例](projects/australian-trade/README.md) · [Tableau贸易总览](trade_overview.png) · [燃料进口图](fuel_imports.png)
+- [Jubilee KPI仪表板：完整案例](projects/financial-kpi/README.md) · [真实Tableau Dashboard](jubilee_dashboard.png)
 
 ## 求职与复现资料
 - [三个核心项目的中文简历表述与面试提纲](RESUME_AND_INTERVIEW_CN.md)
