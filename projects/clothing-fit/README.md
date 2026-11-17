@@ -45,7 +45,7 @@
 - 加入产品标识后，现有测试主要反映训练期间已有产品的情况；新商品的泛化效果尚未验证。
 - 数据来自历史租赁记录，不应直接推断对所有服装电商场景有效。
 - 尚未完成生产部署、真实用户实验或线上A/B测试。
-- 下一步：核验并公开不含学号的Notebook，补充环境依赖与同一轮运行的模型指标。
+- 下一步：补充依赖锁定与在独立环境中复核运行；公开Notebook已包含同一轮运行的模型指标和图表。
 
 ## 作品集
 [中文交互式作品集](https://xuefeizhao2022-star.github.io/clothing-fit-prediction/)
@@ -53,31 +53,26 @@
 ## 数据来源
 Misra, R., Wan, M., & McAuley, J. (2018). *Decomposing fit semantics for product size recommendation in metric spaces*. RecSys 2018. https://doi.org/10.1145/3240323.3240398
 
+
 ---
-**证据状态：** 本页根据上传的最终 `.ipynb` 的代码、Markdown与保存的运行输出整理；Notebook公开候选版已完成学号脱敏与旧输出清理；尚未提交仓库，运行验证待完成。
+## 公开代码与运行结果
 
-## 原始报告图表与Notebook输出的版本说明（2026-11-17复核）
-用户提供了最终报告中的 Figure 3（混淆矩阵）和 Figure 4（Logistic Regression 系数图）。Figure 3 的矩阵为：
+**[查看已运行的完整 Notebook（代码、模型评估、混淆矩阵和系数图）](../../Clothing_Fit_Prediction_Public_(1).ipynb)**
 
-| Actual \\ Predicted | small | fit | large |
+此公开文件由项目作者在 Google Colab 运行并保存输出；已静态检查：70个单元格、60项输出、8张内嵌图表、无保存的Python报错，未检出此前学号。该检查不等于在独立环境中重新执行实验。
+
+**本页的模型指标与混淆矩阵均以公开Notebook的同一次运行输出为准。**
+
+| Actual / Predicted | small | fit | large |
 |---|---:|---:|---:|
-| small | 1,841 | 1,892 | 129 |
-| fit | 2,786 | 15,879 | 2,622 |
-| large | 120 | 1,759 | 1,826 |
+| small | 1,852 | 1,882 | 128 |
+| fit | 2,814 | 15,852 | 2,621 |
+| large | 121 | 1,753 | 1,831 |
 
-该矩阵总样本数为28,854，对角线正确预测数为19,546，计算准确率为 **0.6774**，与原始报告的准确率一致，**并非本页前述Notebook保存输出的0.6770**。因此两套结果来自不同保存状态，尚不能混合引用为同一次测试；需重新核对或统一运行后再发布同组指标和图表。
+测试集28,854条；对角线19,535条；Accuracy约0.6770。完整原始图表请直接打开上述Notebook的Section 9与Section 11。
 
-原始课程报告的两张图片已上传至GitHub，但属于报告版本，不是本次运行Notebook的对应输出。系数图展示模型关联，不代表因果关系。
+### 原始课程报告图（历史版本，不用于上述指标）
 
-## 课程报告版本模型图（已上传；非本次Notebook对应图）
-![课程报告的最终混淆矩阵](../../clothing_confusion_matrix.png)
+原报告另有一张混淆矩阵（对角线1,841、15,879、1,826，Accuracy约0.6774）和系数图。它们来自不同保存版本，故不在本页作为当前模型的主图展示；原始文件仍保留于仓库供核查：[原报告混淆矩阵](../../clothing_confusion_matrix.png) · [原报告系数图](../../clothing_coefficients.png)。
 
-![Logistic Regression模型系数](../../clothing_coefficients.png)
-
-**版本说明：** 以上报告图混淆矩阵对角线为1,841、15,879、1,826（Accuracy 0.6774）。2026-11-17收到的运行完成Notebook在cell 56保存的矩阵则为：small行[1852,1882,128]、fit行[2814,15852,2621]、large行[121,1753,1831]（Accuracy 0.6770）。这两张矩阵不是同一次运行；上方指标表采用Notebook版本，报告图仅作原作业证据，**不得以该报告图说明0.6770的指标**。待Notebook图上传后替换本节主图。
-
-### 模型结果核查
-[查看两组模型运行结果的区别、实际混淆矩阵数值与复现清单](MODEL_RESULTS_AND_REPRODUCIBILITY.md)。课程报告图与修订版Notebook的测试指标来自不同结果版本，不应混用。
-
-### 已运行Notebook核查
-[查看当前Notebook的真实混淆矩阵、指标与版本差异](NOTEBOOK_RUN_AUDIT.md)。
+[查看运行核查与版本差异](NOTEBOOK_RUN_AUDIT.md) · [查看英文模型复现说明](MODEL_RESULTS_AND_REPRODUCIBILITY.md)
