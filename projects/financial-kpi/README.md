@@ -26,7 +26,7 @@
 | Revenue per Kilogram | A$36.57/kg |
 | Indigenous Employee Representation | 7.42% |
 
-这些数字来自本人提交的《Balanced Scorecard Design Proposal and Dashboard Report》，不是企业实际经营数据的独立审计结论。
+这些数字来自课程提交报告及原Tableau仪表板，不是企业实际经营数据的独立审计结论。**补充核验发现：打包CSV汇总毛利率约70.16%，与Dashboard显示的70.68%不一致；原AOV公式也采用了非标准的分母口径。** 因此相关指标需结合[数据核验说明](DATA_VALIDATION_CN.md)阅读，不应在面试中将它们描述为已完全复核的标准财务指标。
 
 ## 分析洞察
 - 财务指标表现较强，但准时交付率为73%，报告提出将其提高至90%的**建议目标**。
@@ -55,3 +55,5 @@
 
 ### 商业洞察与面试讲解
 [查看12项KPI的商业含义、建议和局限](BUSINESS_INSIGHTS_CN.md)。
+
+[查看打包CSV逐项复核、毛利率差异及AOV口径说明](DATA_VALIDATION_CN.md)。
