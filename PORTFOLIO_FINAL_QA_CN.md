@@ -20,8 +20,15 @@
 - [x] 修正首页Clothing Fit历史图与新指标混用
 - [x] 源材料审计、敏感字段与计算口径披露
 - [ ] 浏览器实际多设备端到端测试（当前仅能静态审查HTML/CSS/JS）
-- [ ] Australian Trade可公开源工作簿（需先安全剔除不展示的旧比较）
-- [ ] Jubilee可公开的脱敏打包工作簿（需保留Tableau字段依赖并验证数值）
+- [~] Australian Trade已生成不含旧预测比较的Excel及D2/D3打包Tableau公开候选文件；**待Tableau实际打开验证并上传仓库**
+- [~] Jubilee已生成脱敏且更正总毛利率及AOV公式的打包Tableau公开候选文件；**待Tableau实际打开验证并上传仓库**
 
 ## 完成度解释
 网站与三个案例已有可用、可核查的公开展示；**不能将上述三个未完成项描述为已通过验收**。不应为追求“100%完成”而发布含个人信息的原始工作簿或虚构一致性结论。
+
+## 最新离线交付文件（尚未公开到GitHub）
+- `Australian_Trade_Data_Portfolio.xlsx`
+- `Australian_Trade_Tableau_Portfolio.twbx`
+- `Jubilee_Tableau_Portfolio_Corrected.twbx`
+
+这些文件已完成压缩包/公式/隐私关键词静态检查。GitHub仓库当前仍仅发布原项目截图和文字，不应在链接可访问之前声称这些工作簿已上传。Tableau实际打开确认后由仓库所有者上传这三份二进制文件即可，随后更新网站证据入口。
