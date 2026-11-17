@@ -1,7 +1,7 @@
 # 三个核心项目与作品集网页：最终验收说明
 
 ## 当前公开可访问成果
-1. **Clothing Fit**：[项目案例](projects/clothing-fit/README.md)与[带完整输出的Notebook](Clothing_Fit_Prediction_Public_(1).ipynb)。主指标采用Notebook同一轮结果（Accuracy 0.6770、Macro F1 0.5493），旧课程报告混淆矩阵明确标为历史版本。
+1. **Clothing Fit**：[项目案例](projects/clothing-fit/README.md)与[带完整输出的Notebook](Clothing_Fit_Prediction_Public_%281%29.ipynb)。主指标采用Notebook同一轮结果（Accuracy 0.6770、Macro F1 0.5493），旧课程报告混淆矩阵明确标为历史版本。
 2. **Australian Trade**：[案例](projects/australian-trade/README.md)、[真实贸易仪表板](D2_Trade%20Overview.png)、[真实燃料进口仪表板](D3_Fuel%20Import%20Analysis.png)、[口径说明](projects/australian-trade/ANALYSIS_NOTES_CN.md)。[公开Excel](Australian_Trade_Data_Portfolio.xlsx)、[清理过预测比较的Tableau打包工作簿](Australian_Trade_Tableau_Portfolio.twbx)与D2/D3实际截图均已上传。
 3. **Jubilee KPI**：[案例](projects/financial-kpi/README.md)、[修正版Dashboard](Dashboard.png)、[数据复核](projects/financial-kpi/DATA_VALIDATION_CN.md)。[已公开脱敏修正版Tableau工作簿](Jubilee_Tableau_Portfolio_Corrected_v3.twbx)及[实际修正版Dashboard](Dashboard.png)。原始带姓名的CSV未公开。
 
