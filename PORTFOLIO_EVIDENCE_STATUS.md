@@ -5,8 +5,8 @@
 | 项目 | 已公开、可查看 | 可选后续完善 |
 |---|---|---|
 | Clothing Fit Risk Prediction | [运行完成Notebook](Clothing_Fit_Prediction_Public_(1).ipynb)（70个单元格、60项输出、8张内嵌图表）；[中文案例](projects/clothing-fit/README.md)；[运行结果核查](projects/clothing-fit/NOTEBOOK_RUN_AUDIT.md) | 在独立环境执行完整复现；固定依赖版本；原始课程报告仅作历史版本对照 |
-| Australian Trade & Gas Export Outlook | [中文案例](projects/australian-trade/README.md)、[真实Tableau贸易总览](trade_overview.png)、[燃料进口分析](fuel_imports.png)、[数据口径说明](projects/australian-trade/ANALYSIS_NOTES_CN.md) | 核对最终Excel与Tableau工作簿后再考虑公开；不要把AI-assisted naïve benchmark / retrospective check列为已完成的个人实验 |
-| Jubilee Superstores KPI Dashboard | [中文案例](projects/financial-kpi/README.md)、[真实12项KPI Dashboard](jubilee_dashboard.png)、[业务洞察](projects/financial-kpi/BUSINESS_INSIGHTS_CN.md) | 可补充经脱敏的Tableau工作簿或计算字段；目前不声称已上传 |
+| Australian Trade & Gas Export Outlook | [中文案例](projects/australian-trade/README.md)、[真实Tableau贸易总览](D2_Trade%20Overview.png)、[燃料进口分析](D3_Fuel%20Import%20Analysis.png)、[数据口径说明](projects/australian-trade/ANALYSIS_NOTES_CN.md) | [已公开Excel](Australian_Trade_Data_Portfolio.xlsx)与[Tableau打包工作簿](Australian_Trade_Tableau_Portfolio.twbx)，剔除旧预测比较；不把额外回测列作个人实验 |
+| Jubilee Superstores KPI Dashboard | [中文案例](projects/financial-kpi/README.md)、[求职修正版12项KPI Dashboard](Dashboard.png)、[业务洞察](projects/financial-kpi/BUSINESS_INSIGHTS_CN.md) | [脱敏求职版TWBX](Jubilee_Tableau_Portfolio_Corrected_v3.twbx)、[修正后Dashboard](Dashboard.png)、[指标核验](projects/financial-kpi/DATA_VALIDATION_CN.md)已经公开；原报告口径保留历史说明 |
 
 ## Clothing Fit版本区分
 - 当前公开Notebook的测试结果：Accuracy 0.6770、Balanced Accuracy 0.5728、Macro F1 0.5493；其内嵌混淆矩阵与指标对应同一轮保存输出。
@@ -15,6 +15,6 @@
 
 ## 真实性与隐私边界
 - 课程作业与实际商业项目分开表述。
-- 未上传的工作簿、报告和源文件不提供虚构下载链接。
+- 已上传的工作簿提供可验证的仓库下载链接；未上传的源文件不提供虚构下载链接。
 - 不公开包含学号、账户凭据或私人Cookie的原始文件。
 - 不将规划目标、模型演示或预测当成真实企业运营结果。
