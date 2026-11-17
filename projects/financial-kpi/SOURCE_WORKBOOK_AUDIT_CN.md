@@ -1,7 +1,7 @@
 # Jubilee Tableau：公开修正版处理记录（2026-11-17）
 
-## 已生成的本地公开候选文件（尚未上传GitHub）
-`Jubilee_Tableau_Portfolio_Corrected.twbx`：来自用户提供的`Jubilee.twbx`，保留12张KPI工作表与1个Dashboard，内嵌脱敏CSV（1833行×49列）。
+## 已上传的公开求职修正版
+[`Jubilee_Tableau_Portfolio_Corrected_v3.twbx`](../../Jubilee_Tableau_Portfolio_Corrected_v3.twbx)：来自用户提供的`Jubilee.twbx`，保留12张KPI工作表与1个Dashboard，内嵌脱敏CSV（1833行×49列）。
 
 ## 脱敏方式
 `Customer Name`、`Name`替换为中性代号；`Customer ID`、`Salesperson ID`、`Order ID`也转换成在文件内一致的匿名ID。相同客户、员工及订单仍保留相同ID，以维护`COUNTD`等计算的唯一性口径。未公开原始行级CSV。
@@ -17,4 +17,4 @@
 - 未检出原学号或作者本地绝对路径。
 
 ## 重要边界和验收
-`.twbx`已生成，但**尚未通过Tableau Desktop实际打开验证**。需在Tableau中核对Dashboard是否无红色错误，以及毛利率约70.16%、AOV约A$1,350.33，其余KPI与原截图保持一致。静态编辑XML可能需要Tableau再保存一次，才能成为稳定的公开工作簿。新修正版与旧课程作业截图属于两个不同展示版本，不能混用指标。
+`.twbx`已生成，但**已由作者在Tableau Desktop实际打开验证**。作者已在Tableau中验证新版可正常显示，并上传[新Dashboard截图](../../Dashboard.png)：汇总毛利率70.16%、AOV/Unique Order A$1,350.33。旧课程作业图与修正版不能混用指标。
