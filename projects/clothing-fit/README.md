@@ -45,7 +45,7 @@
 - 加入产品标识后，现有测试主要反映训练期间已有产品的情况；新商品的泛化效果尚未验证。
 - 数据来自历史租赁记录，不应直接推断对所有服装电商场景有效。
 - 尚未完成生产部署、真实用户实验或线上A/B测试。
-- 下一步：清理并公开不含个人学号的Notebook，补充数据使用说明、运行环境、混淆矩阵与业务风险说明。
+- 下一步：核验并公开不含学号的Notebook，补充环境依赖与同一轮运行的模型指标。
 
 ## 作品集
 [中文交互式作品集](https://xuefeizhao2022-star.github.io/clothing-fit-prediction/)
@@ -54,7 +54,7 @@
 Misra, R., Wan, M., & McAuley, J. (2018). *Decomposing fit semantics for product size recommendation in metric spaces*. RecSys 2018. https://doi.org/10.1145/3240323.3240398
 
 ---
-**证据状态：** 本页根据上传的最终 `.ipynb` 的代码、Markdown与保存的运行输出整理；完整Notebook将在清理个人信息及核对不一致文字后公开。
+**证据状态：** 本页根据上传的最终 `.ipynb` 的代码、Markdown与保存的运行输出整理；Notebook公开候选版已完成学号脱敏与旧输出清理；尚未提交仓库，运行验证待完成。
 
 ## 原始报告图表与Notebook输出的版本说明（2026-11-17）
 用户提供了最终报告中的 Figure 3（混淆矩阵）和 Figure 4（Logistic Regression 系数图）。Figure 3 的矩阵为：
@@ -67,7 +67,7 @@ Misra, R., Wan, M., & McAuley, J. (2018). *Decomposing fit semantics for product
 
 该矩阵总样本数为28,854，对角线正确预测数为19,546，计算准确率为 **0.6774**，与原始报告的准确率一致，**并非本页前述Notebook保存输出的0.6770**。因此两套结果来自不同保存状态，尚不能混合引用为同一次测试；需重新核对或统一运行后再发布同组指标和图表。
 
-原始图片及标注版已在会话中收到并生成，**目前尚未作为二进制图片提交GitHub**。待正式上传后补充真实文件链接。系数图是模型关联解释，不应做因果解释。
+原始课程报告的两张图片已上传至GitHub。系数图展示模型关联，不代表因果关系。
 
 ## 实际模型图（已上传）
 ![课程报告的最终混淆矩阵](../../clothing_confusion_matrix.png)
