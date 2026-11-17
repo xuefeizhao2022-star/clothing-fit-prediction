@@ -34,7 +34,7 @@
 网站已通过 GitHub Pages 公开发布，更新 `main` 分支后可通过上方链接查看。
 
 ## 三个精选项目与可核查证据
-- [服装尺码适配风险预测：完整案例](projects/clothing-fit/README.md) · [已运行Notebook](Clothing_Fit_Prediction_Public_(1).ipynb)
+- [服装尺码适配风险预测：完整案例](projects/clothing-fit/README.md) · [已运行Notebook](Clothing_Fit_Prediction_Public_%281%29.ipynb)
 - [澳大利亚贸易分析：完整案例](projects/australian-trade/README.md) · [Tableau工作簿](Australian_Trade_Tableau_Portfolio.twbx) · [Excel数据](Australian_Trade_Data_Portfolio.xlsx) · [贸易总览](D2_Trade%20Overview.png) · [燃料进口图](D3_Fuel%20Import%20Analysis.png)
 - [Jubilee KPI仪表板：完整案例](projects/financial-kpi/README.md) · [脱敏修正版TWBX](Jubilee_Tableau_Portfolio_Corrected_v3.twbx) · [新版真实Dashboard](Dashboard.png)
 
