@@ -20,3 +20,6 @@
 - 未上传的源文件不提供虚构下载链接。
 - 课程报告中的数字不等于独立验证的现实经营业绩。
 - 页面中的模型指标如与原报告不同，应注明来源版本和修订依据。
+
+## 2026-11-17 上传核实
+已直接核查GitHub main分支根目录：`clothing_confusion_matrix.png`、`clothing_coefficients.png`、`trade_overview.png`、`fuel_imports.png`、`jubilee_dashboard.png` 五张真实图片全部存在。网站HTML和三个项目README已包含对应图片引用。剩余事项：Notebook/最终报告脱敏及模型输出版本一致性核对。
