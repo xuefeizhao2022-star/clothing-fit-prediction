@@ -47,3 +47,8 @@
 已收到用户提供的最终 Tableau **Business Performance Dashboard** 截图，标题副标题为“Financial, Customer and Operational Metrics”，画面完整展示12项KPI：Revenue、Gross Profit、Gross Profit Margin、Avg Orders per Customer、AOV、Average Delivery Days、Indigenous Employee Representation、On-Time Delivery Rate、Sales per Employee、Sales per Hour Worked、Total Product Weight、Revenue per kg。截图中收入$2.48M、毛利$1.74M、毛利率70.68%、AOV $191.29、订单数/客户6.15、平均配送3.90天、准时率73.00%，与课程报告的已整理数据一致。
 
 **发布状态：** 真实截图已收到并裁剪为适合网站的文件，但PNG尚未提交到GitHub；仓库现有的`kpi-highlights.svg`仅是根据报告数值重绘的摘要，不是Tableau原图。正式图片上线后在此补充链接。
+
+## 实际Tableau KPI Dashboard（待图片文件上传）
+![Business Performance Dashboard](../../jubilee_dashboard.png)
+
+该图为用户提供的真实Tableau截图；12项KPI均保留。图片上传完成后可直接在此查看。
