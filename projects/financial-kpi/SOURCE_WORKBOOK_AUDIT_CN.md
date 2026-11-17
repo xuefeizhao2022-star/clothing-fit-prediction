@@ -1,24 +1,20 @@
-# Jubilee Tableau打包工作簿核查（2026-11-17）
+# Jubilee Tableau：公开修正版处理记录（2026-11-17）
 
-## 文件状态
-用户已补充`Jubilee.twbx`。本地实际解包确认包含：
-- `Jubilee.twb`（Tableau工作簿，12张KPI工作表、1个Dashboard）
-- `Data/Desktop/jubilee_cleaned_dashboard_data.csv`（1833行、49列，1834行含表头）
+## 已生成的本地公开候选文件（尚未上传GitHub）
+`Jubilee_Tableau_Portfolio_Corrected.twbx`：来自用户提供的`Jubilee.twbx`，保留12张KPI工作表与1个Dashboard，内嵌脱敏CSV（1833行×49列）。
 
-**此前“缺少CSV”的问题已经解决。** 打包工作簿的`textscan`连接指向包内相对路径`Data/Desktop`，不再依赖作者桌面的绝对路径。
+## 脱敏方式
+`Customer Name`、`Name`替换为中性代号；`Customer ID`、`Salesperson ID`、`Order ID`也转换成在文件内一致的匿名ID。相同客户、员工及订单仍保留相同ID，以维护`COUNTD`等计算的唯一性口径。未公开原始行级CSV。
 
-## 隐私与发布限制
-CSV中含`Customer Name`、`Name`（员工姓名）、`Customer ID`、`Salesperson ID`等字段。即使这是课程数据，也不能在未经确认其合成性质/授权及脱敏前直接把整份`.twbx`发布到公开GitHub。当前只公开已经核对的Dashboard截图和案例分析。
+## 修正的指标定义
+1. **Aggregate Gross Profit Margin**：`SUM([Gross_Profit]) / SUM([Revenue])`，由源CSV复算约 **70.16%**。原Dashboard的70.68%来自逐行`Gross_Profit_Margin`取平均（约70.68035%），不是总毛利/总收入。
+2. **AOV / Unique Order**：`SUM([Revenue]) / COUNTD([Order ID])`，由源CSV复算约 **A$1,350.33**。原AOV A$191.29来自`SUM([Revenue]) / SUM([Customer_Order_Count])`，其分母在数据中对客户累计订单数重复求和。
 
-## 已检查的结构
-- 12张KPI工作表与1个Dashboard
-- CSV无缺失单元格（1833行×49列）
-- 数据连接指向打包文件内的CSV
-- 这是一项**静态结构检查**，不是在Tableau Desktop中重新打开验证全部计算值
+## 静态检查结果
+- ZIP可读；内嵌匿名CSV；相对路径`Data/Portfolio/jubilee_anonymised.csv`；
+- 原始记录1833、匿名唯一订单1833、唯一客户298、销售人员25；
+- 在Tableau XML中替换了两个公式并保留其他10张KPI；
+- 未检出原学号或作者本地绝对路径。
 
-## 业务指标
-- 报告与已发布的真实Dashboard截图包含营收约A$2.48m、毛利约A$1.74m、毛利率70.68%、AOV A$191.29、每客户平均订单6.15、准时交付率73%、平均交付3.90天等。
-- 90%的准时交付率是提出的目标，非实际已达到水平。
-
-## 下一步
-制作脱敏的可公开数据版本，检查字段依赖和计算字段后，验证Dashboard与原始报告数值一致，再决定是否公开打包工作簿。
+## 重要边界和验收
+`.twbx`已生成，但**尚未通过Tableau Desktop实际打开验证**。需在Tableau中核对Dashboard是否无红色错误，以及毛利率约70.16%、AOV约A$1,350.33，其余KPI与原截图保持一致。静态编辑XML可能需要Tableau再保存一次，才能成为稳定的公开工作簿。新修正版与旧课程作业截图属于两个不同展示版本，不能混用指标。
