@@ -32,3 +32,8 @@
 
 ## GitHub Pages 发布
 在仓库 **Settings → Pages → Build and deployment** 中，选择 **Deploy from a branch**，分支 **main**、目录 **/(root)**，保存并等待 GitHub 提供网站地址。此步骤需仓库所有者在 GitHub 页面操作。
+
+## 求职与复现资料
+- [三个核心项目的中文简历表述与面试提纲](RESUME_AND_INTERVIEW_CN.md)
+- [Clothing Fit：结果版本核查与复现说明](projects/clothing-fit/MODEL_RESULTS_AND_REPRODUCIBILITY.md)
+- [作品集材料状态](PORTFOLIO_EVIDENCE_STATUS.md)
